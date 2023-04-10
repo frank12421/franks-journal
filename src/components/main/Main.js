@@ -1,5 +1,6 @@
 import EntryForm from "./EntryForm.js";
 import TabBar from "./TabBar.js";
+import EntryList from "./EntryList.js";
 
 export default function Main() {
   return (
@@ -7,6 +8,7 @@ export default function Main() {
       <h2>Main</h2>
       <EntryForm />
       <TabBar />
+      <EntryList />
     </section>
   );
 }
