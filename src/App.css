@@ -1,4 +1,7 @@
+@import "./resources/colors.css";
+
 .App {
+  background-color: var(--color-water-10);
   text-align: center;
 }
 
