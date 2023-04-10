@@ -1,3 +1,7 @@
 export default function Header() {
-  return <h1>Franks Journal</h1>;
+  return (
+    <section>
+      <h1>Franks Journal</h1>
+    </section>
+  );
 }
