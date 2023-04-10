@@ -1,3 +1,7 @@
 export default function Main() {
-  return <h2>Main</h2>;
+  return (
+    <section>
+      <h2>Main</h2>
+    </section>
+  );
 }
