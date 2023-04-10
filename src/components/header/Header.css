@@ -1,0 +1,8 @@
+.App-Header {
+  background-color: var(--color-water-10);
+  color: var(--color-granite);
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

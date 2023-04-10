@@ -1,0 +1,8 @@
+.App-Footer {
+  background-color: var(--color-granite);
+  color: var(--color-foam);
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

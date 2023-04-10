@@ -1,0 +1,24 @@
+.Card-EntryList {
+  border-bottom: 1px solid var(--color-water-10);
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Card-EntryList--Date {
+  font-size: 0.9rem;
+  font-weight: 400;
+  align-self: center;
+}
+
+.Card-Entry--headandFavorite {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Card-EntryList-text {
+  font-size: 0.8rem;
+  padding-bottom: 20px;
+}
