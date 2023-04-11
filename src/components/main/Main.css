@@ -51,24 +51,3 @@
   border-radius: 2px;
   font-size: 1rem;
 }
-
-.Main-Form--TabBar {
-  width: 90%;
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
-
-.Main-Form--button--allEntries {
-  color: var(--color-nemo);
-  text-decoration: none;
-  background-color: transparent;
-  border: none;
-}
-
-.Main-Form--button--favorites {
-  color: var(--color-granite);
-  text-decoration: none;
-  background-color: transparent;
-  border: none;
-}
