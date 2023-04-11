@@ -1,0 +1,43 @@
+.MainForm--TabBar {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.MainForm--TabBar-allEntries {
+  color: var(--color-nemo);
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.MainForm--TabBar-favorites {
+  margin-left: 20px;
+  color: var(--color-granite);
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.MainForm--TabBar-allEntries-number {
+  background-color: var(--color-nemo);
+  color: var(--color-foam);
+  border-radius: 10px;
+  padding: 4px 10px 2px 10px;
+}
+
+.MainForm--TabBar-favorites-number {
+  background-color: var(--color-water-10);
+  color: var(--color-granite);
+  border-radius: 10px;
+  padding: 4px 10px 2px 10px;
+}
