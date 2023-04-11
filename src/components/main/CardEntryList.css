@@ -22,3 +22,9 @@
   font-size: 0.8rem;
   padding-bottom: 20px;
 }
+
+.Card-EntryList--FavButton {
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+}
