@@ -1,7 +1,8 @@
+import "./Header.css";
 export default function Header() {
   return (
-    <section>
-      <h1>Franks Journal</h1>
+    <section className="App-Header">
+      <h1>FRANKS JOURNAL</h1>
     </section>
   );
 }
