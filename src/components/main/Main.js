@@ -1,8 +1,8 @@
 import "./Main.css";
 
-import EntryForm from "./EntryForm.js";
-import TabBar from "./TabBar.js";
-import EntryList from "./EntryList.js";
+import EntryForm from "./EntryList/EntryForm.js";
+import TabBar from "./TabBar/TabBar.js";
+import EntryList from "./EntryList/EntryList.js";
 
 export default function Main() {
   return (

@@ -1,4 +1,4 @@
-import "./Main.css";
+import "../Main.js";
 
 export default function EntryForm() {
   return (
