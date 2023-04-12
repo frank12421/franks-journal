@@ -4,7 +4,7 @@ export default function EntryForm() {
   return (
     <form className="Main-Form">
       New Entry
-      <label for="new-motto" className="Main-Form--label">
+      <label htmlFor="new-motto" className="Main-Form--label">
         Motto
       </label>
       <input
@@ -13,7 +13,7 @@ export default function EntryForm() {
         id="new-motto"
         className="Main-Form--input"
       ></input>
-      <label for="new-notes" className="Main-Form--label">
+      <label htmlFor="new-notes" className="Main-Form--label">
         Notes
       </label>
       <textarea
