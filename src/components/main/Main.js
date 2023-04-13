@@ -39,10 +39,14 @@ export default function Main() {
   const [entries, setEntries] = useState(initialEntries);
   // console.log(entries);
 
+  function handelAddEntry(newEntry) {
+    setEntries([...entries, newEntry]);
+  }
+
   return (
     <section className="App-Main">
       {/* <h2 className="Main-Titel">New Entry</h2> */}
-      <EntryForm />
+      <EntryForm onAddEntry={handelAddEntry} />
       <TabBar />
       <EntryList entries={entries} />
     </section>

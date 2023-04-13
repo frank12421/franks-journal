@@ -1,8 +1,17 @@
 import "../Main.js";
 
-export default function EntryForm() {
+export default function EntryForm(onAddEntry) {
+  function handleSubmit(event) {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    const data = Object.fromEntries(formData);
+    onAddEntry(data);
+    event.target.reset();
+    event.target.elements.tag.focus();
+  }
+
   return (
-    <form className="Main-Form">
+    <form onSubmit={handleSubmit} className="Main-Form">
       New Entry
       <label htmlFor="new-motto" className="Main-Form--label">
         Motto

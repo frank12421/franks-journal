@@ -1,6 +1,4 @@
 import "./CardEntryList.css";
-import { ReactComponent as FavLogo } from "../../../resources/star.svg";
-// import { ReactComponent as FavLogoFilled } from "../../../resources/star-filled.svg";
 
 export default function CardEntryList({ date, motto, notes }) {
   return (
