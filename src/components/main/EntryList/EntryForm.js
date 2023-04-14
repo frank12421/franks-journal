@@ -1,13 +1,14 @@
 import "../Main.js";
 
-export default function EntryForm(onAddEntry) {
+export default function EntryForm({ onAddEntry }) {
+
   function handleSubmit(event) {
     event.preventDefault();
     const formData = new FormData(event.target);
     const data = Object.fromEntries(formData);
     onAddEntry(data);
-    event.target.reset();
-    event.target.elements.tag.focus();
+    // event.target.reset();
+    // event.target.elements.tag.focus();
   }
 
   return (
