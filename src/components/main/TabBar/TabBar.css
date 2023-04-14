@@ -1,4 +1,4 @@
-.MainForm--TabBar {
+.TabBar-Section {
   width: 90%;
   display: flex;
   flex-direction: row;
@@ -9,7 +9,7 @@
   font-weight: 700;
 }
 
-.MainForm--TabBar-allEntries {
+.TabBar-Button-AllEntries {
   color: var(--color-nemo);
   text-decoration: none;
   border: none;
@@ -18,7 +18,7 @@
   font-weight: 700;
 }
 
-.MainForm--TabBar-favorites {
+.TabBar-Button-Favorites {
   margin-left: 20px;
   color: var(--color-granite);
   text-decoration: none;
@@ -28,16 +28,25 @@
   font-weight: 700;
 }
 
-.MainForm--TabBar-allEntries-number {
+.TabBar-Button-AllEntries-Number {
   background-color: var(--color-nemo);
   color: var(--color-foam);
   border-radius: 10px;
   padding: 4px 10px 2px 10px;
 }
 
-.MainForm--TabBar-favorites-number {
+.TabBar-Button-Favorites-Number {
   background-color: var(--color-water-10);
   color: var(--color-granite);
   border-radius: 10px;
   padding: 4px 10px 2px 10px;
+}
+
+.TabBar-Button-AllEntries:hover {
+  color: green;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: 700;
 }
